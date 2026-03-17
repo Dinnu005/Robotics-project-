@@ -1,0 +1,17 @@
+# Core computer vision & ML dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# YOLOv8 (includes PyTorch for CPU inference)
+ultralytics>=8.0.0
+
+# Dataset download (Roboflow – optional, needed only for download_dataset.py roboflow mode)
+roboflow>=1.1.0
+
+# Arduino serial communication (optional, only needed for real hardware)
+pyserial>=3.5
+
+# Training utilities (optional – used when fine-tuning YOLO on your own dataset)
+Pillow>=9.0.0
+PyYAML>=6.0
+tqdm>=4.65.0
