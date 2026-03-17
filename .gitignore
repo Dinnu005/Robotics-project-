@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# YOLO training outputs
+runs/
+
+# Downloaded weights
+*.pt
+*.onnx
+
+# Dataset (large files – download via script)
+dataset/images/
+dataset/labels/
+dataset/deepweeds.zip
+dataset/_deepweeds_raw/
+dataset/raw_images/
+
+# Robot log
+robot_log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
